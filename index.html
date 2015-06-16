@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="title">牛牛誌</title>
-    <link rel='stylesheet' href='' type='text/css'/>
-    <link rel='stylesheet' href='../ewt/stylesheets/deep.css' type='text/css'/>
+    <link rel='stylesheet' href='css/GitHub2.css' type='text/css'/>
+    <link rel='stylesheet' href='css/style.css' type='text/css'/>
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/director.min.js"></script>   
     <script src="js/ractive.js"></script>    
@@ -14,10 +13,10 @@
     <script src="http://static.duoshuo.com/embed.js"></script>
 </head>
 <body>
-<div id="header"><h1><a href="#/" class="blog_title">牛牛誌</a></h1>
+<div id="header"><h1><a href="#/" class="blog_title">牛牛誌（该死的朋友圈强制转码，请猛击↑「原网页」继续浏览）</a></h1>
 </div>
 <div id="container">
-    <center><img src="" alt="loading" class="loading"></center>
+    <center><img src="loading.gif" alt="loading" class="loading"></center>
 </div>
 <script type="text/ractive" id="listTpl">
     <ul class="postlist">
@@ -35,11 +34,6 @@
      <div class="content">{{{toHTML(body)}}}</div>
     {{/post}}
 </script>
-</SECTION><FOOTER class="footer">
-<P><A href="../index.html">牛牛志</A> - © 2015 All rights reserved.
-<!-- 统计 start -->
-<small><script src="http://s11.cnzz.com/stat.php?id=1254405360&web_id=1254405360" language="JavaScript"></script></small></P>
-<!-- 统计 end --></FOOTER>
 <script type="text/ractive" id="titleTpl">
 {{title}}
 </script>
