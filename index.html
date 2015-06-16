@@ -32,14 +32,14 @@
      <h1>{{title}}</h1>
      <span class="create_at">发表于 {{formatTime(created_at)}}</span>
      <div class="content">{{{toHTML(body)}}}</div>
+    <!-- 统计 start -->
+    <small><script src="http://s11.cnzz.com/stat.php?id=1254405360&web_id=1254405360" language="JavaScript"></script></small>
+    <!-- 统计 end -->
     {{/post}}
 </script>
 <script type="text/ractive" id="titleTpl">
 {{title}}
 </script>
 <script src="app.js"></script>
-<!-- 统计 start -->
-<h6><script src="http://s11.cnzz.com/stat.php?id=1254405360&web_id=1254405360" language="JavaScript"></script></h6>
-<!-- 统计 end -->
 </body>
 </html>
