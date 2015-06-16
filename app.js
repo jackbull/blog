@@ -14,7 +14,7 @@ function index(page){
             filter       : 'created',
             page         : page,
             per_page     : _config['per_page']
-            access_token : _config['eb624e68280904899d5f64ed4722c94bc46a749c']
+            access_token : _config['access_token']
         },
         beforeSend:function(){
           $('#container').html('<center><img src="loading.gif" class="loading"></center>');
@@ -85,7 +85,7 @@ function detail(id){
     $.ajax({
         url:"https://api.github.com/repos/"+_config['owner']+"/"+_config['repo']+"/issues/" + id,
         data:{
-        access_token:_config['eb624e68280904899d5f64ed4722c94bc46a749c']
+        // access_token:_config['access_token']
         },
         beforeSend:function(){
           $('#container').html('<center><img src="loading.gif" alt="loading" class="loading"></center>');
