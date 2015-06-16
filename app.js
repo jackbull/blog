@@ -14,7 +14,7 @@ function index(page){
             filter       : 'created',
             page         : page,
             per_page     : _config['per_page']
-            access_token : _config['access_token']
+            // access_token : _config['access_token']
         },
         beforeSend:function(){
           $('#container').html('<center><img src="loading.gif" class="loading"></center>');
