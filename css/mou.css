@@ -4,6 +4,7 @@ a:hover{text-decoration:underline;}
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
 body{padding:.5em 4em 5em;}
+::selection{background:rgba(74, 25, 123, 1);}
 header{margin:5em 0;text-align:center;}
 .des{color:#999;}
 .min{font-size:.9em;}
@@ -50,5 +51,26 @@ ul.null strong:after{content:'：';}
 @keyframes fadeinT{
     0%{opacity:0;transform:translateY(-10px) scale(1.1);}
 }
-header{-webkit-animation:fadeinT 1s ease-out backwards;-animation:fadeinT 1s ease-out backwards;}
-footer{margin-top:5em;height:2em;background:url(qr25.png) no-repeat 50% 50%;}
+.header {
+    	position: fixed;
+    	top: 0px;
+    	left: 0px;
+    	width: 100%;
+    	font-size: 20px;
+		color: #444;
+		text-align: center;
+    	background-color: rgba(238, 238, 238, 0.767);
+    	opacity: 0.8;
+    	z-index: 999;
+	}
+	
+.footer {
+    margin: 0px auto;
+    padding: 22px 0px;
+    text-align: center;
+    color: rgba(78, 93, 108, 1);
+    clear: both;
+    font-size: 14px;
+    position: relative;
+    background-color: rgba(74, 25, 123, 1);
+}
