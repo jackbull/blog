@@ -1,0 +1,54 @@
+body,textarea,input,option{font:1.2em 'Hiragino Sans GB',\5FAE\8F6F\96C5\9ED1,sans-serif;color:#222;}
+a{color:#37E;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+html{background:url(favicon.ico) no-repeat 50% 100%;}
+body{padding:.5em 4em 5em;}
+header{margin:5em 0;text-align:center;}
+.des{color:#999;}
+.min{font-size:.9em;}
+h1{font-size:2.5em;}
+h2{margin-left:-.5em;}
+h2,h3,h4{padding-top:1em;}
+blockquote{background:#F8F8F8;padding:.2em 1.8em;
+	text-align:center;}
+cite{font-style:normal;}
+a{transition:.3s ease;}
+body{text-rendering:optimizeLegibility;-webkit-font-smoothing:subpixel-antialiased;}
+
+.job li{padding:1em 0;}
+.job h4{margin:0;padding:0;}
+.job p{margin:0;color:#999;}
+.job a{display:block;}
+
+.project,ul.null{list-style-type:none;padding-left:1em;}
+
+ul.null strong{color:#999;font-size:.9em;}
+ul.null strong:after{content:'：';}
+
+.project a{color:#222;
+	display:block;
+	border-radius:.5em;
+	cursor:pointer;
+	position:relative;padding:10px 10px 10px 43px;}
+.project a:hover{background:#f3fbfd;text-decoration:none;}
+.project h4{padding:0;margin:0;}
+.project h4 strong{margin:-.2em 0 0 .2em;padding:.3em .3em .25em;
+	background:rgba(0,0,0,.05);color:#666;border-radius:.5em;
+	font-size:.8em;font-weight:normal;}
+.project span{color:#37E;}
+.project a:hover span{text-decoration:underline;}
+.project img{position:absolute;left:12px;top:12px;
+	width:16px;height:16px;padding:4px;
+	background:rgba(0,0,0,.02);
+	border-radius:4px;}
+.project p{margin:0;opacity:.4;}
+
+@-webkit-keyframes fadeinT{
+    0%{opacity:0;-webkit-transform:translateY(-10px) scale(1.1);}
+}
+@keyframes fadeinT{
+    0%{opacity:0;transform:translateY(-10px) scale(1.1);}
+}
+header{-webkit-animation:fadeinT 1s ease-out backwards;-animation:fadeinT 1s ease-out backwards;}
+footer{margin-top:5em;height:2em;background:url(qr25.png) no-repeat 50% 50%;}
