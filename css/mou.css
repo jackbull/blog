@@ -52,7 +52,10 @@ ul.null strong:after{content:'：';}
 header{-webkit-animation:fadeinT 1s ease-out backwards;-animation:fadeinT 1s ease-out backwards;}
 footer{margin-top:5em;height:2em;text-align:center;font-size:.9em;color:gray}
 
-::selection{background:rgba(0,149,255,0.1);}
+::selection {
+  background: #262a30;
+  color: #fff;
+}
 create_at{text-align:right;}
 img {
 	vertical-align: middle;
