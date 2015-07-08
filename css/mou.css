@@ -20,28 +20,28 @@ body{text-rendering:optimizeLegibility;-webkit-font-smoothing:subpixel-antialias
 .job p{margin:0;color:#999;}
 .job a{display:block;}
 
-.project,ul.null{list-style-type:none;padding-left:1em;}
+.postlist,ul.null{list-style-type:none;padding-left:1em;}
 
 ul.null strong{color:#999;font-size:.9em;}
 ul.null strong:after{content:'：';}
 
-.project a{color:#222;
+.postlist a{color:#222;
 	display:block;
 	border-radius:.5em;
 	cursor:pointer;
 	position:relative;padding:10px 10px 10px 43px;}
-.project a:hover{background:#f3fbfd;text-decoration:none;}
-.project h4{padding:0;margin:0;}
-.project h4 strong{margin:-.2em 0 0 .2em;padding:.3em .3em .25em;
+.postlist a:hover{background:#f3fbfd;text-decoration:none;}
+.postlist h4{padding:0;margin:0;}
+.postlist h4 strong{margin:-.2em 0 0 .2em;padding:.3em .3em .25em;
 	background:rgba(0,0,0,.05);color:#666;border-radius:.5em;
 	font-size:.8em;font-weight:normal;}
-.project span{color:#37E;}
-.project a:hover span{text-decoration:underline;}
-.project img{position:absolute;left:12px;top:12px;
+.postlist span{color:#37E;}
+.postlist a:hover span{text-decoration:underline;}
+.postlist img{position:absolute;left:12px;top:12px;
 	width:16px;height:16px;padding:4px;
 	background:rgba(0,0,0,.02);
 	border-radius:4px;}
-.project p{margin:0;opacity:.4;}
+.postlist p{margin:0;opacity:.4;}
 
 @-webkit-keyframes fadeinT{
     0%{opacity:0;-webkit-transform:translateY(-10px) scale(1.1);}
@@ -53,7 +53,7 @@ header{-webkit-animation:fadeinT 1s ease-out backwards;-animation:fadeinT 1s eas
 footer{margin-top:5em;height:2em;text-align:center;}
 
 ::selection{background:rgba(0,149,255,0.1);}
-.create_at{text-align:right;}
+create_at{text-align:right;}
 img {
 	vertical-align: middle;
 	max-width: 100%
