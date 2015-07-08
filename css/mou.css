@@ -54,3 +54,7 @@ footer{margin-top:5em;height:2em;text-align:center;}
 
 ::selection{background:rgba(0,149,255,0.1);}
 .create_at{text-align:right;}
+img {
+	vertical-align: middle;
+	max-width: 100%
+}
