@@ -4,7 +4,7 @@ a:hover{text-decoration:underline;}
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
 body{padding:.5em 4em 5em;}
-header{margin:1.2em 0;text-align:center;color:#37E}
+header{margin:1.2em 0;text-align:center;color:#37E;font-size:1.9em}
 .des{color:#999;}
 .min{font-size:.9em;}
 h1{font-size:2.5em;}
@@ -29,7 +29,7 @@ ul.null strong:after{content:'：';}
 	display:inline-block;
 	border-radius:.5em;
 	cursor:pointer;
-	position:relative;padding:10px 10px 10px 43px;}
+	position:relative;padding:10px 10px 10px 0px;}
 .postlist a:hover{background:mediumpurple;color:#fff;text-decoration:none;}
 .postlist h4{padding:0;margin:0;}
 .postlist h4 strong{margin:-.2em 0 0 .2em;padding:.3em .3em .25em;
@@ -50,7 +50,7 @@ ul.null strong:after{content:'：';}
     0%{opacity:0;transform:translateY(-10px) scale(1.1);}
 }
 header{-webkit-animation:fadeinT 1s ease-out backwards;-animation:fadeinT 1s ease-out backwards;}
-footer{margin-top:5em;height:2em;text-align:center;font-size:.9em;}
+footer{margin-top:5em;height:2em;text-align:center;font-size:.9em;color:gray}
 
 ::selection{background:rgba(0,149,255,0.1);}
 create_at{text-align:right;}
