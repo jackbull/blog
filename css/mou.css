@@ -61,5 +61,5 @@ img {
 	vertical-align: middle;
 	max-width: 100%
 }
-.name {text-decoration:none;}
-.ds-social-links {width: 100%}
+.container clearfix a:hover {text-decoration:none;}
+.ds-social-links {width: 250px}
