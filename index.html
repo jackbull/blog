@@ -26,7 +26,7 @@
 </header>
 
 <div id="container" stlye="background-color: white">
-    <center><p>该死的朋友圈强制转码，请猛击↑「原网页」继续浏览</p></center>
+    <!-- 吐槽 start --><center><p>该死的朋友圈强制转码，请猛击↑「原网页」继续浏览</p></center><!-- 吐槽 end -->
     <center><img src="loading.gif" alt="loading" class="loading"></center>
 </div>
 <script type="text/ractive" id="listTpl">
@@ -36,7 +36,7 @@
         {{/posts}}
     </ul>
     {{#prev}}<a href="#p{{page-1}}" class="prev">上一页</a>{{/prev}}
-    {{#next}}<a href="#p{{page+1}}" class="next">下一页</a>{{/next}}
+    <p align="right">{{#next}}<a href="#p{{page+1}}" class="next">下一页</a>{{/next}}</p>
 </script>
 <script type="text/ractive" id="detailTpl">
     {{#post}}
@@ -50,7 +50,7 @@
 </script>
 <script src="app.js"></script>
 <FOOTER class="footer" background-color: rgba(74, 25, 123, 1)>
-	<P><A href="../">牛牛誌</A> > <A href="../blog">Blog</A>All rights reserved.
+	<P><A href="../">牛牛誌</A> > <A href="../blog">Blog</A> All rights reserved.
 <!-- 统计 start -->
 <small><script src="http://s11.cnzz.com/stat.php?id=1254405360&web_id=1254405360" language="JavaScript"></script></small></P>
 <!-- 统计 end -->
