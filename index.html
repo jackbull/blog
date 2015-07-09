@@ -5,22 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="title">牛牛誌</title>
     <link rel='stylesheet' href='' type='text/css'/>
-    <link rel='stylesheet' href='../blog/css/mou.css' type='text/css'/>
+    <link rel='stylesheet' href='../blog/mou.css' type='text/css'/>
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/director.min.js"></script>   
     <script src="js/ractive.js"></script>    
     <script src="js/markdown.js"></script>    
     <script src="config.js"></script>
     <script src="http://static.duoshuo.com/embed.js"></script>
-	<script>
-        var imgUrl = "http://www.pptfans.cn/wp-content/themes/pptfans3.0/images/share-logo.jpg";
-        </script>
 
 </head>
 <body>
 
 <header id="header">
-  <div class="container clearfix" stlye="background-color: rgba(74, 25, 123, 1)">
+  <div class="clearfix">
     <a href="/blog">
       <div class="logo" style='background-image: url("");'></div>
 	  <div class="name" style="color: grey; text-align: center">牛牛誌</div>
@@ -29,7 +26,7 @@
 </header>
 
 <div id="container" stlye="background-color: white">
-    <p>——该死的朋友圈强制转码，请猛击↑「原网页」继续浏览</p>
+    <center><p>该死的朋友圈强制转码，请猛击↑「原网页」继续浏览</p></center>
     <center><img src="loading.gif" alt="loading" class="loading"></center>
 </div>
 <script type="text/ractive" id="listTpl">
@@ -44,7 +41,7 @@
 <script type="text/ractive" id="detailTpl">
     {{#post}}
      <h1>{{title}}</h1>
-     <span class="create_at">发表于 {{formatTime(created_at)}}</span>
+     <p align="right"><span class="create_at">发表于 {{formatTime(created_at)}}</span></p>
      <div class="content">{{{toHTML(body)}}}</div>
     {{/post}}
 </script>
@@ -53,8 +50,7 @@
 </script>
 <script src="app.js"></script>
 <FOOTER class="footer" background-color: rgba(74, 25, 123, 1)>
-	<P><A href="../index.html">牛牛誌</A> - © 2015 <A href="../blog">Blog</A> 
-Inc. All rights reserved.
+	<P><A href="../">牛牛誌</A> > <A href="../blog">Blog</A>All rights reserved.
 <!-- 统计 start -->
 <small><script src="http://s11.cnzz.com/stat.php?id=1254405360&web_id=1254405360" language="JavaScript"></script></small></P>
 <!-- 统计 end -->
