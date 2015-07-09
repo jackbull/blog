@@ -61,4 +61,5 @@ img {
 	vertical-align: middle;
 	max-width: 100%
 }
-.container clearfix{text-decoration:none;}
+.name {text-decoration:none;}
+.ds-social-links {width: 100%}
