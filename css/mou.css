@@ -30,7 +30,7 @@ ul.null strong:after{content:'：';}
 	border-radius:.5em;
 	cursor:pointer;
 	position:relative;padding:10px 10px 10px 0px;}
-.postlist a:hover{background:mediumpurple;color:#fff;text-decoration:none;}
+.postlist a:hover{background:rgb(94, 179, 239);color:#fff;text-decoration:none;}
 .postlist h4{padding:0;margin:0;}
 .postlist h4 strong{margin:-.2em 0 0 .2em;padding:.3em .3em .25em;
 	background:rgba(0,0,0,.05);color:#666;border-radius:.5em;
@@ -50,7 +50,7 @@ ul.null strong:after{content:'：';}
     0%{opacity:0;transform:translateY(-10px) scale(1.1);}
 }
 header{-webkit-animation:fadeinT 1s ease-out backwards;-animation:fadeinT 1s ease-out backwards;}
-footer{margin-top:5em;height:2em;text-align:center;font-size:.9em;color:gray;text-decoration:none;}
+footer{margin-top:5em;height:2em;text-align:center;font-size:.9em;color:gray;}
 
 ::selection {
   background: #262a30;
@@ -61,3 +61,4 @@ img {
 	vertical-align: middle;
 	max-width: 100%
 }
+.container clearfix{text-decoration:none;}
