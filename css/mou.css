@@ -51,7 +51,7 @@ ul.null strong:after{content:'：';}
 }
 header{-webkit-animation:fadeinT 1s ease-out backwards;-animation:fadeinT 1s ease-out backwards;}
 footer{margin-top:5em;height:2em;text-align:center;font-size:.9em;color:gray;}
-.footer  a:hover{color:gray;text-decoration:none;}
+.footer  a {color:gray;text-decoration:none;}
 ::selection {
   background: #262a30;
   color: #fff;
@@ -61,5 +61,5 @@ img {
 	vertical-align: middle;
 	max-width: 100%
 }
-.container clearfix a:hover {text-decoration:none;}
+.clearfix a:hover {text-decoration:none;}
 .ds-social-links {width: 250px}
