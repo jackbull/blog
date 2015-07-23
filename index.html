@@ -32,7 +32,7 @@
 <script type="text/ractive" id="listTpl">
     <ul class="postlist">
         {{#posts}}
-        <li class="postlist"><span class="datetime">{{formatTime(created_at)}}</span><a href="#post/{{number}}">{{title}}</a></li>
+        <li class="postlist"><span class="datetime">{{formatTime(created_at)}}</span><span>  </span><a href="#post/{{number}}">{{title}}</a></li>
         {{/posts}}
     </ul>
     {{#prev}}<a href="#p{{page-1}}" class="prev">上一页</a>{{/prev}}
