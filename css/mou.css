@@ -35,7 +35,7 @@ ul.null strong:after{content:'：';}
 .postlist h4 strong{margin:-.2em 0 0 .2em;padding:.3em .3em .25em;
 	background:rgba(0,0,0,.05);color:#666;border-radius:.5em;
 	font-size:.8em;font-weight:normal;}
-.postlist span{color:#222;}
+.postlist span{color:#222;padding-right:10px;}
 .postlist a:hover span{text-decoration:underline;}
 .postlist img{position:absolute;left:12px;top:12px;
 	width:16px;height:16px;padding:4px;
