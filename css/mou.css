@@ -61,6 +61,6 @@ img {
 	vertical-align: middle;
 	max-width: 100%
 }
-.clearfix {color: grey; text-align: center;}
+.clearfix a{color: grey; text-align: center;}
 .clearfix a:hover {text-decoration:none;}
 .ds-social-links {width: 250px}
