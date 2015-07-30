@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="title">牛牛誌</title>
+	<link rel="icon" href="https://avatars1.githubusercontent.com/u/7621954?v=3&s=20">
     <link rel='stylesheet' href='' type='text/css'/>
     <link rel='stylesheet' href='../blog/css/mou.css' type='text/css'/>
-	<link rel="stylesheet" href="http://guojing.me/style/css/bootstrap.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="http://guojing.me/style/css/bootstrap.min.css" type="text/css" media="screen">
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/director.min.js"></script>   
     <script src="js/ractive.js"></script>    
@@ -21,29 +20,29 @@
 <header id="header">
   <div class="clearfix">
     <a href="/blog">
-      <div class="logo" style='background-image: url("");'></div>
-	  <div class="name">牛牛誌</div>
+      <div class="logo" style='background-image: url("https://avatars1.githubusercontent.com/u/7621954?v=3&s=20);'></div>
+	  <div class="name" style="color: grey; text-align: center">牛牛誌</div>
     </a>
   </div>
 </header>
 
-<div id="container">
+<div id="container" stlye="background-color: white">
     <!-- 吐槽 start --><center><p>该死的朋友圈强制转码，请猛击↑「原网页」继续浏览</p></center><!-- 吐槽 end -->
     <center><img src="loading.gif" alt="loading" class="loading"></center>
 </div>
 <script type="text/ractive" id="listTpl">
     <ul class="postlist">
         {{#posts}}
-        <li class="postlist"><span class="datetime">{{formatTime(created_at)}}</span><a href="#post/{{number}}">{{title}}</a></li>
+        <li class="postlist"><a href="#post/{{number}}">{{title}}</a><span class="datetime">{{formatTime(created_at)}}</span></li>
         {{/posts}}
     </ul>
     {{#prev}}<a href="#p{{page-1}}" class="prev">上一页</a>{{/prev}}
-    <span align="right">{{#next}}<a href="#p{{page+1}}" class="next">下一页</a>{{/next}}</span>
+    <p align="right">{{#next}}<a href="#p{{page+1}}" class="next">下一页</a>{{/next}}</p>
 </script>
 <script type="text/ractive" id="detailTpl">
     {{#post}}
      <h1>{{title}}</h1>
-     <p align="right"><span class="create_at">写在 {{formatTime(created_at)}}</span></p>
+     <p align="right"><span class="create_at">发表于 {{formatTime(created_at)}}</span></p>
      <div class="content">{{{toHTML(body)}}}</div>
     {{/post}}
 </script>
@@ -51,8 +50,8 @@
 {{title}}
 </script>
 <script src="app.js"></script>
-<FOOTER class="footer">
-	<P><A href="../">牛牛</A> > <A href="../blog">牛牛誌</A> All rights reserved.
+<FOOTER class="footer" background-color: rgba(74, 25, 123, 1)>
+	<P><A href="../">牛牛誌</A> > <A href="../blog">Blog</A> All rights reserved.
 <!-- 统计 start -->
 <small><script src="http://s11.cnzz.com/stat.php?id=1254405360&web_id=1254405360" language="JavaScript"></script></small></P>
 <!-- 统计 end -->
