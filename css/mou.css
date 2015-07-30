@@ -64,3 +64,15 @@ img {
 .clearfix a{color: grey; text-align: center;}
 .clearfix a:hover {text-decoration:none;}
 .ds-social-links {width: 250px}
+/* table */
+table {
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+  width: 100%;
+}
+table thead {
+  border-bottom: 2px solid #ecf0f1;
+}
+table thead tr th:first-child {
+  width: 250px;
+}
