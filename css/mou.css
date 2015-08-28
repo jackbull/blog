@@ -64,15 +64,56 @@ img {
 .clearfix a{color: grey; text-align: center;}
 .clearfix a:hover {text-decoration:none;}
 .ds-social-links {width: 250px}
+hr {padding:8px;border-left:1px solid #dddddd;border-top:1px solid #dddddd;line-height:20px;vertical-align:top}
 /* table */
 table {
-  margin-bottom: 25px;
-  font-size: 1.6rem;
-  width: 100%;
+  border: 1px solid #2f2f2f;
+  border-color: #2f2f2f;
+  max-width: 100%;
 }
-table thead {
-  border-bottom: 2px solid #ecf0f1;
+table th, table td {    padding: 8px;
+    border-left: 1px solid #2f2f2f;
+    border-top: 1px solid #2f2f2f;
+    line-height: 20px;
 }
-table thead tr th:first-child {
-  width: 250px;
+/* loading */
+#loader::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    border-top-color: #000;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+#loader::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    border-top-color: #000;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    border-top-color: #000;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
 }
