@@ -69,8 +69,7 @@ container {max-width: 999px;}
 
 /* table */
 table {
-  border-left: 1px solid #dddddd;
-  border-top: 1px solid #dddddd;
+  border: 1px solid #2f2f2f; 
   max-width: 100%;
 }
 table th, table td {    padding: 8px;
