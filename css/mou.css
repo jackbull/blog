@@ -64,7 +64,9 @@ img {
 .clearfix a{color: grey; text-align: center;}
 .clearfix a:hover {text-decoration:none;}
 .ds-social-links {width: 250px}
-hr {padding:8px;border-left:1px solid #dddddd;border-top:1px solid #dddddd;line-height:20px;vertical-align:top}
+hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;}
+.container {max-width: 999px;}
+
 /* table */
 table {
   border: 1px solid #2f2f2f;
@@ -72,12 +74,10 @@ table {
   max-width: 100%;
 }
 table th, table td {    padding: 8px;
-    border-left: 1px solid #2f2f2f;
-    border-top: 1px solid #2f2f2f;
     line-height: 20px;
 }
 /* loading */
-#loader::after {
+.loader::after {
     content: "";
     position: absolute;
     top: 15px;
@@ -90,7 +90,7 @@ table th, table td {    padding: 8px;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
-#loader::before {
+.loader::before {
     content: "";
     position: absolute;
     top: 5px;
@@ -103,7 +103,7 @@ table th, table td {    padding: 8px;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
-#loader {
+.loader {
     display: block;
     position: relative;
     left: 50%;
