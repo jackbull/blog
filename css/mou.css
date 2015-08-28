@@ -65,12 +65,12 @@ img {
 .clearfix a:hover {text-decoration:none;}
 .ds-social-links {width: 250px}
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;}
-.container {max-width: 999px;}
+container {max-width: 999px;}
 
 /* table */
 table {
-  border: 1px solid #2f2f2f;
-  border-color: #2f2f2f;
+  border-left: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
   max-width: 100%;
 }
 table th, table td {    padding: 8px;
