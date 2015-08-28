@@ -65,7 +65,7 @@ img {
 .clearfix a:hover {text-decoration:none;}
 .ds-social-links {width: 250px}
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;}
-container {max-width: 999px;}
+#本体 {max-width: 999px;}
 
 /* table */
 table {
