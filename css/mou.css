@@ -66,11 +66,11 @@ img {
 }
 
 }
-.clearfix a {
+clearfix a {
     color: gray;
     text-decoration: none;
 }
-.clearfix a:hover {
+clearfix a:hover {
     text-decoration: none;
 }
 .ds-social-links {width: 250px}
