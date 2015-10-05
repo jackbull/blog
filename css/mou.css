@@ -66,8 +66,13 @@ img {
 }
 
 }
-.clearfix a {color: grey; text-align: center;}
-.clearfix a:hover {text-decoration:none;}
+.clearfix a {
+    color: gray;
+    text-decoration: none;
+}
+.clearfix a:hover {
+    text-decoration: none;
+}
 .ds-social-links {width: 250px}
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;}
 @media (min-width:768px){.content{width:750px}}@media (min-width:992px){.content{width:970px; margin:auto;}}@media (min-width:1200px){.content{width:1000px; margin:auto;}}
