@@ -7,13 +7,14 @@ body{padding:.5em 0em 5em;}
 header{margin:1.2em 0;text-align:center;color:#37E;font-size:1.9em;box-shadow:0px 1px rgb(179,229,252);}
 .des{color:#999;}
 .min{font-size:.9em;}
-h1{font-size:2.5em;}
+h1{font-size:3.5em;}
 h2{margin-left:-.5em;}
 h2,h3,h4{padding-top:1em;}
 blockquote{background:#F8F8F8;padding:.2em 1.8em;}
 cite{font-style:normal;}
 a{transition:.3s ease;}
 body{text-rendering:optimizeLegibility;-webkit-font-smoothing:subpixel-antialiased;}
+#container{max-width:1000px; margin:auto;}
 
 .job li{padding:1em 0;}
 .job h4{margin:0;padding:0;}
@@ -65,7 +66,7 @@ img {
 .clearfix a:hover {text-decoration:none;}
 .ds-social-links {width: 250px}
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;}
-@media (min-width:768px){.content{width:750px}}@media (min-width:992px){.content{width:970px}}@media (min-width:1200px){.content{width:1170px}}
+@media (min-width:768px){.content{width:750px}}@media (min-width:992px){.content{width:970px; margin:auto;}}@media (min-width:1200px){.content{width:1000px; margin:auto;}}
 
 /* table */
 table {border: 1px solid #bbb;
