@@ -4,12 +4,13 @@ a:hover{text-decoration:underline;}
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
 body{padding:.5em 0em 5em;}
-header{margin:1.2em 0;text-align:center;color:grey;font-size:1.9em;box-shadow:0px 1px rgb(179,229,252);}
+header{margin:1.2em 0;text-align:center;color:grey;font-size:1.9em;box-shadow:0px 1px rgb(94,179,239);}
+.header  a {color:gray;text-decoration:none;}
 .des{color:#999;}
 .min{font-size:.9em;}
 h1{font-size:2.3em;}
-h2{margin-left:-.5em;}
-h2,h3,h4{padding-top:1em;}
+h2{padding-left:6px;border-left:6px solid rgb(94,179,239);}
+h2,h3,h4{margin-top:1em;}
 blockquote{background:#F8F8F8;padding:.2em 1.8em;}
 cite{font-style:normal;}
 a{transition:.3s ease;}
@@ -51,7 +52,7 @@ ul.null strong:after{content:'：';}
     0%{opacity:0;transform:translateY(-10px) scale(1.1);}
 }
 header{-webkit-animation:fadeinT 1s ease-out backwards;-animation:fadeinT 1s ease-out backwards;}
-footer{margin-top:5em;height:2em;text-align:center;font-size:.9em;color:gray;}
+footer{margin-top:5em;line-height:0.3em;text-align:center;font-size:.7em;color:gray;}
 .footer  a {color:gray;text-decoration:none;}
 ::selection {
   background: #262a30;
