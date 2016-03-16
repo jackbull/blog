@@ -79,12 +79,19 @@ hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;
 @media (min-width:768px){.content{width:750px}}@media (min-width:992px){.content{width:970px; margin:auto;}}@media (min-width:1200px){.content{width:1000px; margin:auto;}}
 
 /* table */
-table {border: 1px solid #bbb;
-  border: 1px solid #2f2f2f; 
-  max-width: 100%;
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-spacing: 0;
 }
-table th, table td {    padding: 8px;
-  background-color: #ededed;
+table th, table td {
+	padding: 3px 10px;
+    background-color: #222;
+    border-top: 1px solid #c3c3c3;
+    border-left: 1px solid #c3c3c3;
 }
 /* loading */
 .loader::after {
