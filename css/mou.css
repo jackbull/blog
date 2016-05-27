@@ -9,6 +9,10 @@ body{padding:.5em 0em 5em;}
     margin: 0 auto;
     border-bottom: 1px solid #eee;
 }
+#header {
+  margin: 2em 0 4em;
+  text-align: center;
+}
 .blog-name {
     float: none;
     letter-spacing: 0.1em;
@@ -26,7 +30,9 @@ body{padding:.5em 0em 5em;}
 	text-decoration:none;
 }
 .blog-name span {
+    text-align: center;
     font-size: 0.4em;
+	margin-top: 10px;
     display: block;
 }
 .des{color:#999;}
@@ -101,15 +107,14 @@ img {
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;margin-bottom: 30px;}
 @media (min-width:768px){
   .content{
-	  width:750px
+	width:750px
   }
   #header {
-    margin: 2em 0 4em;
-    text-align: center;
+    margin: 0;
+    text-align: left;
   }
-  .blog-name span {
-    margin-top: 10px;
-    text-align: center;
+  .blog-name span {	
+    text-align: left;
     display: inline;
   }
 }
