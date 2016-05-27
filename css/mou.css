@@ -5,7 +5,7 @@ a:hover{text-decoration:underline;}
 html{background:url(favicon.ico) no-repeat 50% 100%;}
 body{padding:.5em 0em 5em;}
 .nav-panel {
-    max-width: 880px;
+    max-width: 1000px;
     margin: 0 auto;
     border-bottom: 1px solid #eee;
 }
@@ -17,16 +17,16 @@ body{padding:.5em 0em 5em;}
     color: #ccc;
 }
 .blog-name a {
-    font-size: 130%;
+    font-size: 0.8em;
     color: #ccc;
 	text-decoration:none;
 }
 .blog-name a:hover {
-    color: aaa;
+    color: #aaa;
 	text-decoration:none;
 }
 .blog-name span {
-    font-size: 80%;
+    font-size: 0.4em;
 }
 .des{color:#999;}
 .min{font-size:.9em;}
@@ -102,8 +102,9 @@ hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;
   .content{
 	  width:750px
   }
-  .nav-panel {
-    width: 90.25%;
+  #header {
+    margin: 2em 0 4em;
+    text-align: center;
   }
   .blog-name span {
     display: block;
