@@ -4,6 +4,11 @@ a:hover{text-decoration:underline;}
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
 body{padding:.5em 0em 5em;}
+.nav-panel {
+    max-width: 880px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+}
 .blog-name {
     float: left;
     letter-spacing: 0.1em;
