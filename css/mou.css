@@ -45,7 +45,7 @@ cite{font-style:normal;}
 a{transition:.3s ease;}
 body{text-rendering:optimizeLegibility;-webkit-font-smoothing:subpixel-antialiased;}
 div#container {
-    max-width: 773px;
+    max-width: 800px;
     margin: auto;
     padding: 0 1em;
 }
