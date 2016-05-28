@@ -44,6 +44,14 @@
      <span class="post-time">Jackbull / {{formatTime(created_at)}}</span>
      <div class="content">{{{toHTML(body)}}}</div>
     {{/post}}
+	<nav id="bottom-article-nav">  
+      <a class="bottom-article" id="bottom-article-nav-left" href="#post/{{number-1}}">
+        <div class="article-nav-caption">上一篇</div>
+      </a>
+      <a class="bottom-article" id="bottom-article-nav-right" href="#post/{{number+1}}">
+        <div class="article-nav-caption">下一篇</div>
+      </a>
+    </nav>
 </script>
 <script type="text/ractive" id="titleTpl">
 {{title}}
@@ -58,4 +66,3 @@
 </FOOTER>
 </body>
 </html>
-
