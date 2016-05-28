@@ -3,7 +3,7 @@ a{color:#37E;text-decoration:none;}
 a:hover{text-decoration:underline;}
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
-body{padding:.5em 0em 5em;}
+body{padding:.5em 0em 1em;}
 .nav-panel {
     max-width: none;
     margin: 0 auto;
@@ -45,7 +45,7 @@ cite{font-style:normal;}
 a{transition:.3s ease;}
 body{text-rendering:optimizeLegibility;-webkit-font-smoothing:subpixel-antialiased;}
 div#container {
-    max-width: 100%;
+    max-width: 700px;
     margin: auto;
     padding: 0 1em;
 }
@@ -109,9 +109,9 @@ img {
 }
 .ds-social-links {width: 250px}
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;margin-bottom: 30px;}
-@media (max-width:768px){
+@media (min-width:768px){
   .content{
-	width:800px;
+	width:100%;
 	margin:auto;
   }
   #header {
