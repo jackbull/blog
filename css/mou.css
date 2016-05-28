@@ -129,6 +129,16 @@ hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;
     text-align: left;
     display: inline;
   }
+  #bottom-page-nav-left {
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+  }
+  #bottom-page-nav-right {
+    float: right;
+    text-align: left;
+    padding-left: 20px;
+  }
 }
 @media (max-width:320px){
   .ds-login-buttons{
@@ -202,6 +212,9 @@ table th, table td {
     margin-top: 50px;
     text-align: center;
     display: block;
+}
+.bottom-page:hover{
+    color: rgb(94,179,239);
 }
 .page-nav-caption {
     letter-spacing: 2px;
