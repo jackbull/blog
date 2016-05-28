@@ -116,7 +116,7 @@ img {
 
 
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;margin-bottom: 30px;}
-@media (min-width:840px){
+@media (min-width:768px){
   .content{
 	width:800px;
 	margin:auto;
@@ -195,4 +195,15 @@ table th, table td {
     border-top-color: #000;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
+}
+.bottom-article {
+    text-decoration: none;
+    color: #aaa;
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+}
+.article-nav-caption {
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
