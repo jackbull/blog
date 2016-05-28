@@ -41,7 +41,7 @@
 <script type="text/ractive" id="detailTpl">
     {{#post}}
      <h1>{{title}}</h1>
-     <span class="create_at">写在 {{formatTime(created_at)}}</span>
+     <span class="post-time">Jackbull / {{formatTime(created_at)}}</span>
      <div class="content">{{{toHTML(body)}}}</div>
     {{/post}}
 </script>
