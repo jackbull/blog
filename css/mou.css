@@ -93,9 +93,11 @@ footer{margin-top:5em;line-height:0.3em;text-align:center;font-size:.7em;color:g
 }
 create_at{text-align:right;}
 img {
-	vertical-align: middle;
-	max-width: 100%;
-	margin: auto;
+    vertical-align: middle;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
     border-radius: 5px;
 }
 
@@ -123,12 +125,11 @@ hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;
     display: inline;
   }
 }
-@media (min-width:992px){
-
-}
-@media (min-width:1200px){
-
-}
+@media (max-width:320px){
+  .ds-login-buttons{
+    display:none
+	}
+ }
 
 table {
     margin-left: auto;
