@@ -102,14 +102,11 @@ img {
 }
 
 }
-.clearfix a {
-    color: gray;
-    text-decoration: none;
+
+.ds-social-links {
+	width: 250px
+	
 }
-.clearfix a:hover {
-    text-decoration: none;
-}
-.ds-social-links {width: 250px}
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;margin-bottom: 30px;}
 @media (min-width:768px){
   .content{
@@ -125,11 +122,6 @@ hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;
     display: inline;
   }
 }
-@media (max-width:320px){
-  .ds-login-buttons{
-    display:none
-	}
- }
 
 table {
     margin-left: auto;
