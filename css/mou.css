@@ -113,6 +113,10 @@ img {
     margin: 0em auto;
     border-radius: .5em;
 }
+.editor-icon {
+    margin: 3em auto;
+    border-radius: 10em;
+}
 
 
 hr {border-left:1px solid #dddddd;border-top:1px solid #dddddd;margin-top: 30px;margin-bottom: 30px;}
