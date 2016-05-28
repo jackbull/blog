@@ -1,11 +1,11 @@
 body,textarea,input,option{font:1em 'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1,Microsoft Yahei,Hiragino Sans GB,sans-serif;color:#222;}
-a {
+.content a {
   color: black;
   font-weight: bold;
   text-decoration: none;
   border-bottom: 3px solid rgb(94, 179, 239);
 }
-a:hover{
+.content a:hover{
   color:#37E;
   text-decoration:underline;
 }
