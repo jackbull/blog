@@ -21,7 +21,7 @@
 	<header id="header">
 		<h1 class="blog-name">
 			<a href="/blog">牛牛誌</a>
-			<span>- 间歇性壮志凌云，持续性混吃等死</span>
+			<span>间歇性壮志凌云，持续性混吃等死</span>
 		</h1>
 	</header>
 </div>
@@ -40,8 +40,8 @@
 </script>
 <script type="text/ractive" id="detailTpl">
     {{#post}}
-     <h1>{{title}}</h1>
-     <p align="right"><span class="create_at">写在 {{formatTime(created_at)}}</span></p>
+     <h1 class="post-title">{{title}}</h1>
+     <span class="post-time">Jackbull / {{formatTime(created_at)}}</span></p>
      <div class="content">{{{toHTML(body)}}}</div>
     {{/post}}
 </script>
