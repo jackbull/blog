@@ -7,7 +7,6 @@ body,textarea,input,option{font:1em 'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8
 }
 .content a:hover{
   color:#37E;
-  text-decoration:underline;
 }
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
