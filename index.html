@@ -32,7 +32,7 @@
 <script type="text/ractive" id="listTpl">
     <ul class="postlist">
         {{#posts}}
-        <li class="postlist"><span class="datetime">{{formatTime(created_at)}}</span><a href="#post/{{number}}">{{title}}</a></li>
+        <li class="postlist"><span class="datetime">{{formatTime(created_at)}}</span><a href="/blog/#post/{{number}}">{{title}}</a></li>
         {{/posts}}
     </ul>
 	<nav id="bottom-page-nav">  
