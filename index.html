@@ -32,7 +32,7 @@
 <script type="text/ractive" id="listTpl">
     <ul class="postlist">
         {{#posts}}
-        <li class="postlist"><span class="datetime">{{formatTime(created_at)}}</span><a href="#post/{{number}}">{{title}}</a></li>
+        <li class="postlist"><span class="datetime">{{formatTime(created_at)}}</span><a href="/blog/?from=postlist#post/{{number}}">{{title}}</a></li>
         {{/posts}}
     </ul>
 	<nav id="bottom-page-nav">  
@@ -42,7 +42,7 @@
         </a>
 	  {{/prev}}
 	  {{#next}}
-	    <a class="bottom-page" id="bottom-page-nav-right" href="#p{{page+1}}">
+	    <a class="bottom-page" id="bottom-page-nav-right" href="/blog/?from=postlist#p{{page+1}}">
           <div class="page-nav-caption">下一页</div>
         </a>
 	  {{/next}}
