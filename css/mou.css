@@ -12,11 +12,7 @@ body,textarea,input,option{font:1em 'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8
 }
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
-body{padding:.5em 0em 1em;
-     font-size: 14px;
-     line-height: 1.75;
-     margin-bottom: 16px;
-}
+body{padding:.5em 0em 1em;}
 .nav-panel {
     max-width: none;
     margin: 0 auto;
@@ -57,6 +53,13 @@ blockquote{background:#F8F8F8;padding:.2em 1.8em;}
 cite{font-style:normal;}
 a{transition:.3s ease;}
 body{text-rendering:optimizeLegibility;-webkit-font-smoothing:subpixel-antialiased;}
+.content{
+width:800px;
+margin:auto;
+font-size: 14px;
+line-height: 1.75;
+margin-bottom: 16px;
+}
 div#container {
     max-width: 800px;
     margin: auto;
