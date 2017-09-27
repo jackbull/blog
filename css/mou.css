@@ -56,6 +56,8 @@ body{text-rendering:optimizeLegibility;-webkit-font-smoothing:subpixel-antialias
 .content{
 width:800px;
 margin:auto;
+}
+.content p{
 font-size: 14px;
 line-height: 1.75;
 margin-bottom: 16px;
