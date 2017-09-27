@@ -13,9 +13,6 @@ body,textarea,input,option{font:1em 'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
 body{padding:.5em 0em 1em;
-     font-size: 14px;
-     line-height: 1.75;
-     margin-bottom: 16px;
 }
 .nav-panel {
     max-width: none;
@@ -61,6 +58,11 @@ div#container {
     max-width: 800px;
     margin: auto;
     padding: 0 1em;
+}
+.content p{
+font-size: 14px;
+line-height: 1.75;
+margin-bottom: 16px;
 }
 .post-time{
   color: #ccc;
