@@ -61,7 +61,7 @@ div#container {
 .post-time{
   color: #ccc;
 }
-.content{ font-size: 14px; line-height: 1.75; margin-bottom: 16px;}
+.content p{ font-size: 14px; line-height: 1.75; margin-bottom: 16px;}
 
 .job li{padding:1em 0;}
 .job h4{margin:0;padding:0;}
