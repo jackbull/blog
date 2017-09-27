@@ -61,6 +61,7 @@ div#container {
 }
 .content p{
 font-size: 14px;
+letter-spacing: 0.5px;
 line-height: 1.75;
 margin-bottom: 16px;
 }
