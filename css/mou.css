@@ -53,10 +53,7 @@ blockquote{background:#F8F8F8;padding:.2em 1.8em;}
 cite{font-style:normal;}
 a{transition:.3s ease;}
 body{text-rendering:optimizeLegibility;-webkit-font-smoothing:subpixel-antialiased;}
-.content{
-width: 800px;
-margin: auto;
-}
+.content{width: 800px;margin: auto;}
 .content p{
 font-size: 14px;
 line-height: 1.75;
