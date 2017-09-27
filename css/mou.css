@@ -12,7 +12,11 @@ body,textarea,input,option{font:1em 'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8
 }
 
 html{background:url(favicon.ico) no-repeat 50% 100%;}
-body{padding:.5em 0em 1em;}
+body{padding:.5em 0em 1em;
+     font-size: 14px; 
+     line-height: 1.75; 
+     margin-bottom: 16px;
+}
 .nav-panel {
     max-width: none;
     margin: 0 auto;
@@ -61,7 +65,7 @@ div#container {
 .post-time{
   color: #ccc;
 }
-.content p{ font-size: 14px; line-height: 1.75; margin-bottom: 16px;}
+
 
 .job li{padding:1em 0;}
 .job h4{margin:0;padding:0;}
